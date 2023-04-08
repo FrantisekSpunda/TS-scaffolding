@@ -1,20 +1,20 @@
 {
-	"compilerOptions": {
-		// Nastavení absolutní cesty pro importy.
-		// "baseUrl": "./src",
-		// Definuje module system pro program. Znamená to jakým systémem se TS kompiluje. NodeNext je ideální pro "type: module".
-		// CommonJS je pro TS bez "type: module", kde se používá "require".
-		"module": "NodeNext",
-		// Toto určuje jak typescript najde kód, který importujeme. "Node" pro klasický, "NodeNext" pro "type: module".
-		// U NodeNext můžeme module NodeNext pro soubory ts, js a CommonJS pro soubory cts, cjs.
-		"moduleResolution": "NodeNext",
-		// Verze JavaScriptu do kterého se TS kompiluje.
-		"target": "ES2022",
-		// Kompilace JavaScriptu zpět do TS pro lepší debugování.
-		"sourceMap": true,
-		// Složka do které je náš JavaScript kompilován.
-		"outDir": "dist"
-	},
-	// Kde najde kód pro kompilování.
-	"include": ["src/**/*"]
+  "compilerOptions": {
+    // Nastavení absolutní cesty pro importy.
+    "baseUrl": "./src",
+    // Definuje module system pro program. Znamená to jakým systémem se TS kompiluje. NodeNext je ideální pro "type: module".
+    // CommonJS je pro TS bez "type: module", kde se používá "require".
+    "module": "NodeNext",
+    // Toto určuje jak typescript najde kód, který importujeme. "Node" pro klasický, "NodeNext" pro "type: module".
+    // U NodeNext můžeme module NodeNext pro soubory ts, js a CommonJS pro soubory cts, cjs.
+    "moduleResolution": "NodeNext",
+    // Verze JavaScriptu do kterého se TS kompiluje.
+    "target": "ES2022",
+    // Kompilace JavaScriptu zpět do TS pro lepší debugování.
+    "sourceMap": true,
+    // Složka do které je náš JavaScript kompilován.
+    "outDir": "dist"
+  },
+  // Kde najde kód pro kompilování.
+  "include": ["src/**/*"]
 }

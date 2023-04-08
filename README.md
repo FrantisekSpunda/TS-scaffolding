@@ -1,0 +1,4 @@
+requirements
+
+- nodemon
+- ts-node

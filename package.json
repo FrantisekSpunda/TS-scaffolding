@@ -5,7 +5,8 @@
   "description": "Project for testing sorting algorithms. Also I'm here creating and docs all config for run typescript.",
   "main": "index.js",
   "scripts": {
-    "dev": "node ./dist",
+    "dev": "concurrently --kill-others \"tsc --watch\" \"nodemon ./dist\"",
+    "start": "node ./dist/index.js",
     "build": "tsc"
   },
   "keywords": [
