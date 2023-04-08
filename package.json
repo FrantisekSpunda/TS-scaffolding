@@ -2,7 +2,7 @@
   "name": "ts-skeleton",
   "type": "module",
   "version": "1.0.0",
-  "description": "Project for testing TS. Also docs all configuration for run typescript.",
+  "description": "Skeleton for testing some bullshit in TS. Also docs all configuration for run typescript.",
   "main": "index.js",
   "scripts": {
     "dev": "concurrently --kill-others \"tsc --watch\" \"nodemon ./dist\"",
