@@ -1,20 +1,21 @@
 {
   "compilerOptions": {
-    // Nastavení absolutní cesty pro importy.
+    // Set absolute path for TS.
     "baseUrl": "./src",
-    // Definuje module system pro program. Znamená to jakým systémem se TS kompiluje. NodeNext je ideální pro "type: module".
-    // CommonJS je pro TS bez "type: module", kde se používá "require".
+    // Define how TS is commpiled.NodeNext is for "type: module".
+    // CommonJS is used for classic JS, where we are using "require" insted of "import".
     "module": "NodeNext",
-    // Toto určuje jak typescript najde kód, který importujeme. "Node" pro klasický, "NodeNext" pro "type: module".
-    // U NodeNext můžeme module NodeNext pro soubory ts, js a CommonJS pro soubory cts, cjs.
+    // Here we are specifi way, how we are importing code from other files.
+    // With NodeNext we can use files .ts, .js for module"NodeNext" and use "import ... from ..."
+    // and CommonJS for files .cts, .cjs and use classic JS with "require('...')"
     "moduleResolution": "NodeNext",
-    // Verze JavaScriptu do kterého se TS kompiluje.
+    // This specify version of JS into witch is commpiled.
     "target": "ES2022",
-    // Kompilace JavaScriptu zpět do TS pro lepší debugování.
+    // Compile JS back to TS for better debugging.
     "sourceMap": true,
-    // Složka do které je náš JavaScript kompilován.
+    // Folder where we want to compile our TS.
     "outDir": "dist"
   },
-  // Kde najde kód pro kompilování.
+  // Files witch we need compile.
   "include": ["src/**/*"]
 }
