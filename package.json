@@ -1,0 +1,23 @@
+{
+  "name": "sorting-algorithms",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Project for testing sorting algorithms. Also I'm here creating and docs all config for run typescript.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./dist",
+    "build": "tsc"
+  },
+  "keywords": [
+    "sorting",
+    "algorithm",
+    "typescript",
+    "javascript"
+  ],
+  "author": "František Špunda",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "typescript": "^5.0.4"
+  }
+}
