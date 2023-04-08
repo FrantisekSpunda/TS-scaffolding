@@ -1,8 +1,8 @@
 {
-  "name": "sorting-algorithms",
+  "name": "ts-skeleton",
   "type": "module",
   "version": "1.0.0",
-  "description": "Project for testing sorting algorithms. Also I'm here creating and docs all config for run typescript.",
+  "description": "Project for testing TS. Also docs all configuration for run typescript.",
   "main": "index.js",
   "scripts": {
     "dev": "concurrently --kill-others \"tsc --watch\" \"nodemon ./dist\"",
@@ -10,10 +10,9 @@
     "build": "tsc"
   },
   "keywords": [
-    "sorting",
-    "algorithm",
     "typescript",
-    "javascript"
+    "javascript",
+    "config"
   ],
   "author": "František Špunda",
   "license": "ISC",
