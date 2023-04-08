@@ -75,3 +75,4 @@ Then we need to configure our TS for work with this modules. Ofcourse we want co
 ```
 
 Bcs of all our configuration we can use NodeNext and CommonJS at the same time.
+![image-nextnode-with-commonjs](https://github.com/FrantisekSpunda/ts-skeleton/blob/master/public/media/nextnode-with-commonjs.png?raw=true)
