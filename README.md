@@ -23,6 +23,7 @@ git clone https://github.com/FrantisekSpunda/ts-skeleton.git
 
 ##### npm
 
+- `concurrently` - This we need to run more watchers for changes in same time.
 - `typescript` - This skeleton is
 - `@type/node` - We need this package for using Node.js with TypeScript
 
