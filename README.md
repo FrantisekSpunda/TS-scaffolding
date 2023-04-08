@@ -7,9 +7,8 @@
 
 ### Requirements 🧾
 
-- node.js and npm
-- nodemon `npm install nodemon --save-dev`
-- ts-node `npm install ts-node --save-dev`
+- node.js with npm
+- brain 😄
 
 ### Installation 🐱‍💻
 
@@ -24,6 +23,8 @@ git clone https://github.com/FrantisekSpunda/ts-skeleton.git
 ##### npm
 
 - `concurrently` - This we need to run more watchers for changes in same time.
+- `nodemon` - This we are using for watching for changes.
+- `ts-node` - This is used with nodemon
 - `typescript` - This skeleton is
 - `@type/node` - We need this package for using Node.js with TypeScript
 
