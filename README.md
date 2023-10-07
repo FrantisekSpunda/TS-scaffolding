@@ -1,4 +1,4 @@
-<h2 align="center">TypeScript skeleton</h2>
+<h2 align="center">TypeScript scaffolding</h2>
 <p align="center">
   Intended for some Typescript testing projects. 
   <br><br>
